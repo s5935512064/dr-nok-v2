@@ -16,7 +16,7 @@ const menuList = [
 const Navbar = (props: Props) => {
   return (
     <>
-      <div className="w-full h-fit p-4 sm:px-10 flex justify-between items-center fixed top-0 left-0 bg-white/75 gap-4">
+      <div className="z-50 w-full h-fit p-4 sm:px-10 flex justify-between items-center fixed top-0 left-0 bg-white/75 gap-4">
         <div className="w-36 h-16 relative shrink-0">
           <Image
             src={"/assets/logo1.svg"}

@@ -11,12 +11,135 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="min-h-screen w-full flex items-center justify-center bg-white ">
-        <p>section1</p>
+      <div className=" w-full flex items-center justify-center px-5 sm:px-10 py-10 translate-y-56 ">
+        <div className="max-w-screen-xl w-full flex items-center flex-col gap-2 pt-20">
+          <p className="text-5xl font-bold text-blue text-center">
+            NEWS & PROMOTIONS
+          </p>
+
+          <button
+            type="button"
+            title="applyjobs"
+            className="mt-4 px-7 py-2 border-2 tracking-wider border-blue font-bold text-blue bg-white rounded-full min-w-[150px] "
+          >
+            VIEW ALL
+          </button>
+
+          <div className="w-full grid grid-cols-3 gap-6 mt-7">
+            <div className="max-h-[500px]  h-[500px] relative overflow-hidden w-full bg-white rounded-2xl drop-shadow-lg border border-lightGray ">
+              <div className="py-5 pt-7 px-7 relative">
+                <p className="font-bold uppercase text-lg">
+                  ROYAL CANIN NEW FLAVOUR TESTER for clinic
+                </p>
+                <p className=" text-gray">10 OCT. 2022</p>
+
+                <button
+                  type="button"
+                  title="promotion"
+                  className="px-4 py-1 bg-orange text-sm text-white rounded-full absolute -bottom-5 z-10"
+                >
+                  PROMOTION
+                </button>
+              </div>
+
+              <div className=" w-full h-full relative overflow-hidden ">
+                <Image
+                  src="/assets/Rectangle23.png"
+                  fill
+                  alt="new1"
+                  style={{ objectFit: "cover", objectPosition: "center" }}
+                  className="hover:scale-105 cursor-pointer duration-300"
+                />
+              </div>
+            </div>
+
+            <div className="grid grid-rows-2 gap-4">
+              <div className="w-full h-full bg-white rounded-2xl shadow-md"></div>
+
+              <div className="w-full h-full bg-gray"></div>
+            </div>
+
+            <div className="w-full bg-red"></div>
+          </div>
+        </div>
       </div>
 
-      <div className="min-h-screen w-full bg-slate-50 flex justify-center items-center bg-[url('/assets/Group291.svg')] bg-no-repeat bg-fill bg-center bg-blue/20 bg-blend-multiply">
-        <div className="max-w-screen-xl w-full flex justify-center items-center"></div>
+      <div className="h-fit w-full bg-slate-50 flex justify-center px-5 sm:px-10 py-10 bg-[url('/assets/Group291.svg')] bg-no-repeat bg-fill bg-center bg-blue/20 bg-blend-multiply pb-96">
+        <div className="max-w-screen-xl w-full flex items-center flex-col gap-2 pt-52">
+          <p className="text-5xl font-bold text-blue text-center">
+            WHY WORK WITH US
+          </p>
+          <p className="text-black max-w-md text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+            inventore necessitatibus fugiat labore.
+          </p>
+
+          <button
+            type="button"
+            title="applyjobs"
+            className="mt-4 px-7 py-2 border-2 tracking-wider border-blue font-bold text-blue bg-white rounded-full min-w-[150px] "
+          >
+            APPLY JOBS
+          </button>
+
+          <div className="w-full bg-[url('/assets/Maskgroup.png')] bg-left bg-no-repeat bg-contain min-h-[350px] flex justify-end items-center gap-7 pr-48">
+            <div className="w-44 flex flex-col items-center justify-center gap-1 text-center text-black ">
+              <div className="w-32 h-32 relative">
+                <Image
+                  src="/assets/Group455.svg"
+                  fill
+                  alt="teamwork"
+                  style={{ objectFit: "contain", objectPosition: "center" }}
+                  className="hover:scale-110 duration-300 cursor-pointer"
+                />
+              </div>
+              <p className="font-bold">TEAMWORK</p>
+              <p className="text-sm">IS THE BEST</p>
+            </div>
+
+            <div className="w-44 flex flex-col items-center justify-center gap-1 text-center text-black ">
+              <div className="w-32 h-32 relative">
+                <Image
+                  src="/assets/Group324.svg"
+                  fill
+                  alt="teamwork"
+                  style={{ objectFit: "contain", objectPosition: "center" }}
+                  className="hover:scale-110 duration-300 cursor-pointer"
+                />
+              </div>
+              <p className="font-bold">EMPLOYEE</p>
+              <p className="text-sm">WELFARE</p>
+            </div>
+
+            <div className="w-44 flex flex-col items-center justify-center gap-1 text-center text-black ">
+              <div className="w-32 h-32 relative">
+                <Image
+                  src="/assets/Group460.svg"
+                  fill
+                  alt="teamwork"
+                  style={{ objectFit: "contain", objectPosition: "center" }}
+                  className="hover:scale-110 duration-300 cursor-pointer"
+                />
+              </div>
+              <p className="font-bold">VALUE</p>
+              <p className="text-sm">OUR EMPLOYEE</p>
+            </div>
+
+            <div className="w-44 flex flex-col items-center justify-center gap-1 text-center text-black ">
+              <div className="w-32 h-32 relative">
+                <Image
+                  src="/assets/Group653.svg"
+                  fill
+                  alt="teamwork"
+                  style={{ objectFit: "contain", objectPosition: "center" }}
+                  className="hover:scale-110 duration-300 cursor-pointer"
+                />
+              </div>
+              <p className="font-bold">LEARNING</p>
+              <p className="text-sm">CAMPUS</p>
+            </div>
+          </div>
+        </div>
       </div>
     </Layout>
   );
