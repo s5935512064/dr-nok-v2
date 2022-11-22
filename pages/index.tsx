@@ -11,8 +11,295 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className=" w-full flex items-center justify-center px-5 sm:px-10 py-10 translate-y-56 ">
+      <div className="h-screen w-full flex justify-center px-5 sm:px-10 py-10 bg-gray/20">
+
+      </div>
+
+      <div className="h-fit w-full flex justify-center px-5 sm:px-10 py-10">
+        <div className="max-w-screen-xl w-full flex items-center flex-col gap-2 pt-20 relative">
+
+          <div className="w-full flex flex-col items-center gap-2 relative">
+
+            <div className="absolute top-0 right-[70%] h-full w-60  ">
+              <div className="w-full h-full relative">
+                <Image
+                  src="/assets/Group284.svg"
+                  fill
+                  alt="teamwork"
+                  style={{ objectFit: "contain", objectPosition: "center" }}
+
+                />
+
+              </div>
+
+            </div>
+
+            <p className="text-5xl font-bold text-blue text-center uppercase ">
+              OUR BUSINESS
+            </p>
+
+            <p className="text-black max-w-md text-center ">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+              inventore necessitatibus fugiat labore.
+            </p>
+
+            <button
+              type="button"
+              title="applyjobs"
+              className=" mt-2 px-7 py-2 border-2 tracking-wider border-blue font-bold text-blue bg-white rounded-full min-w-[150px] hover:bg-blue hover:text-white duration-300 "
+            >
+              READ MORE
+            </button>
+          </div>
+
+          <div className="w-full flex justify-center gap-7 mt-16">
+
+            <div className="bg-white rounded-2xl overflow-hidden drop-shadow relative w-full max-w-[350px] h-96">
+              <Image
+                src="/assets/Rectangle12.png"
+                fill
+                alt="teamwork"
+                style={{ objectFit: "cover", objectPosition: "center" }}
+
+              />
+
+              <div className="bg-white absolute bottom-0 p-5 h-28 w-full flex flex-col  justify-center items-center">
+
+                <p className="uppercase font-bold text-3xl text-blue">Vet clinic</p>
+                <p className="text-gray text-lg">Business</p>
+
+              </div>
+
+            </div>
+
+            <div className="bg-white rounded-2xl overflow-hidden drop-shadow relative  w-full max-w-[350px] h-96">
+              <Image
+                src="/assets/Rectangle122.png"
+                fill
+                alt="teamwork"
+                style={{ objectFit: "cover", objectPosition: "center" }}
+
+              />
+
+              <div className="bg-white absolute bottom-0 p-5 h-28 w-full flex flex-col  justify-center items-center">
+
+                <p className="uppercase font-bold text-3xl text-blue">bite care</p>
+                <p className="text-gray text-lg">Product for pets</p>
+
+              </div>
+
+            </div>
+
+            <div className="bg-white rounded-2xl overflow-hidden drop-shadow relative  w-full max-w-[350px] h-96 ">
+              <Image
+                src="/assets/Rectangle123.png"
+                fill
+                alt="teamwork"
+                style={{ objectFit: "cover", objectPosition: "center" }}
+
+              />
+
+              <div className="bg-white absolute bottom-0 p-5 h-28 w-full flex flex-col  justify-center items-center">
+
+                <p className="uppercase font-bold text-3xl text-blue">etc.</p>
+                <p className="text-gray text-lg">Business</p>
+
+              </div>
+
+            </div>
+
+
+
+          </div>
+
+
+
+
+        </div>
+
+      </div>
+
+
+      <div className="h-fit w-full flex justify-center px-5 sm:px-10 py-10">
+        <div className="max-w-screen-xl w-full flex items-center flex-col gap-2 pt-20 relative">
+
+          <div className="w-full flex flex-col items-center gap-2 relative">
+
+            <div className="absolute top-0 left-[70%] h-full w-48 ">
+              <div className="w-full h-full relative">
+                <Image
+                  src="/assets/Group283.svg"
+                  fill
+                  alt="teamwork"
+                  style={{ objectFit: "contain", objectPosition: "center" }}
+
+                />
+
+              </div>
+
+            </div>
+
+            <p className="text-5xl font-bold text-blue text-center uppercase ">
+              OUR LOGISTICS
+            </p>
+
+            <p className="text-black max-w-md text-center ">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+              inventore necessitatibus fugiat labore.
+            </p>
+
+            <button
+              type="button"
+              title="applyjobs"
+              className=" mt-2 px-7 py-2 border-2 tracking-wider border-blue font-bold text-blue bg-white rounded-full min-w-[150px] hover:bg-blue hover:text-white duration-300 "
+            >
+              READ MORE
+            </button>
+          </div>
+
+          <div className="w-full gap-7 mt-16 flex justify-center  ">
+
+            <div className="w-full h-96 max-w-[300px]  bg-[url('/assets/Group57.png')] bg-top bg-cover bg-no-repeat p-5">
+
+              <p className="text-white mt-7 text-lg uppercase">SMART</p>
+              <p className="font-bold text-white text-lg uppercase">WAREHOUSE</p>
+
+            </div>
+
+            <div className="w-full h-96 max-w-[300px]  bg-[url('/assets/Group572.png')] bg-top bg-cover bg-no-repeat p-5">
+
+              <p className="text-white mt-7 text-lg uppercase">EXCELLENT</p>
+              <p className="font-bold text-white text-lg uppercase">SERVICE</p>
+
+            </div>
+
+            <div className="w-full h-96 max-w-[300px]  bg-[url('/assets/Group294.png')] bg-top bg-cover bg-no-repeat p-5">
+
+              <p className="text-white mt-7 text-lg uppercase">Specialist</p>
+              <p className="font-bold text-white text-lg uppercase">in Vet Business</p>
+
+            </div>
+
+
+
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+
+      <div className="h-screen w-full flex justify-center px-5 sm:px-10 py-10">
         <div className="max-w-screen-xl w-full flex items-center flex-col gap-2 pt-20">
+          <p className="text-5xl font-bold text-blue text-center uppercase">
+            What Our Clients Say
+          </p>
+
+          <div className="w-full h-full bg-[url('/assets/Group173.svg')] bg-center bg-contain bg-no-repeat flex justify-center  gap-7 mt-4 pt-7">
+
+            <div className="flex flex-col items-center gap-4 max-w-[300px]">
+
+              <div className=" relative">
+                <div className="absolute bottom-0 z-10 ml-4">
+                  <svg width="36" height="31" viewBox="0 0 36 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M32.4328 3.12725L32.4337 3.12809C34.2468 4.93691 34.9185 7.682 34.3856 10.7833C33.856 13.8663 32.1411 17.2087 29.3248 20.041L17.78 29.0991L6.23543 20.0412C3.41899 17.204 1.70658 13.8616 1.17807 10.7787C0.646484 7.67775 1.31765 4.93134 3.12741 3.1169C6.15663 0.0881262 11.9194 0.274802 17.2145 3.90493L17.78 4.29257L18.3454 3.90493C23.6392 0.275708 29.4028 0.0971911 32.4328 3.12725Z" fill="#CF4237" stroke="white" stroke-width="2" />
+                  </svg>
+
+                </div>
+
+                <div className="w-44 h-44 rounded-full relative">
+                  <Image
+                    src={"/assets/Ellipse5.png"}
+                    fill
+                    alt="logo"
+                    style={{ objectFit: "cover", objectPosition: "center" }}
+
+                  />
+
+
+                </div>
+              </div>
+
+              <p className="font-bold text-[#1E2245] text-lg ">MNO Vet Clinic, BKK</p>
+              <p className="font-bold text-blue text-lg -mt-2">Doctor Jarinphorn</p>
+
+              <p className="text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+
+            </div>
+
+
+            <div className="flex flex-col items-center gap-4 max-w-[300px]">
+
+              <div className=" relative">
+                <div className="absolute bottom-0 z-10 ml-4">
+                  <svg width="36" height="31" viewBox="0 0 36 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M32.4328 3.12725L32.4337 3.12809C34.2468 4.93691 34.9185 7.682 34.3856 10.7833C33.856 13.8663 32.1411 17.2087 29.3248 20.041L17.78 29.0991L6.23543 20.0412C3.41899 17.204 1.70658 13.8616 1.17807 10.7787C0.646484 7.67775 1.31765 4.93134 3.12741 3.1169C6.15663 0.0881262 11.9194 0.274802 17.2145 3.90493L17.78 4.29257L18.3454 3.90493C23.6392 0.275708 29.4028 0.0971911 32.4328 3.12725Z" fill="#CF4237" stroke="white" stroke-width="2" />
+                  </svg>
+
+                </div>
+
+                <div className="w-44 h-44 rounded-full relative">
+                  <Image
+                    src={"/assets/Ellipse6.png"}
+                    fill
+                    alt="logo"
+                    style={{ objectFit: "cover", objectPosition: "center" }}
+
+                  />
+
+
+                </div>
+              </div>
+
+              <p className="font-bold text-[#1E2245] text-lg ">XYZ Vet Hospital, Hat Yai</p>
+              <p className="font-bold text-blue text-lg -mt-2">Jamie Surasak</p>
+
+              <p className="text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+
+            </div>
+
+
+            <div className="flex flex-col items-center gap-4 max-w-[300px]">
+
+              <div className=" relative">
+                <div className="absolute bottom-0 z-10 ml-4">
+                  <svg width="36" height="31" viewBox="0 0 36 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M32.4328 3.12725L32.4337 3.12809C34.2468 4.93691 34.9185 7.682 34.3856 10.7833C33.856 13.8663 32.1411 17.2087 29.3248 20.041L17.78 29.0991L6.23543 20.0412C3.41899 17.204 1.70658 13.8616 1.17807 10.7787C0.646484 7.67775 1.31765 4.93134 3.12741 3.1169C6.15663 0.0881262 11.9194 0.274802 17.2145 3.90493L17.78 4.29257L18.3454 3.90493C23.6392 0.275708 29.4028 0.0971911 32.4328 3.12725Z" fill="#CF4237" stroke="white" stroke-width="2" />
+                  </svg>
+
+                </div>
+
+                <div className="w-44 h-44 rounded-full relative">
+                  <Image
+                    src={"/assets/Ellipse7.png"}
+                    fill
+                    alt="logo"
+                    style={{ objectFit: "cover", objectPosition: "center" }}
+
+                  />
+
+
+                </div>
+              </div>
+
+              <p className="font-bold text-[#1E2245] text-lg ">ABC Vet Clinic, BKK</p>
+              <p className="font-bold text-blue text-lg -mt-2">Doctor Phai-liu</p>
+
+              <p className="text-center">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+
+            </div>
+
+
+
+          </div>
+        </div>
+
+      </div>
+
+      <div className=" w-full flex items-center justify-center px-5 sm:px-10 py-10 translate-y-56 -mt-60 ">
+        <div className="max-w-screen-xl w-full flex items-center flex-col gap-2 pt-10">
           <p className="text-5xl font-bold text-blue text-center">
             NEWS & PROMOTIONS
           </p>
@@ -20,12 +307,13 @@ export default function Home() {
           <button
             type="button"
             title="applyjobs"
-            className="mt-4 px-7 py-2 border-2 tracking-wider border-blue font-bold text-blue bg-white rounded-full min-w-[150px] "
+            className="mt-4 px-7 py-2 border-2 tracking-wider border-blue font-bold text-blue bg-white rounded-full min-w-[150px] hover:bg-blue hover:text-white duration-300"
           >
             VIEW ALL
           </button>
 
           <div className="w-full grid grid-cols-3 gap-6 mt-7">
+
             <div className="max-h-[500px]  h-[500px] relative overflow-hidden w-full bg-white rounded-2xl drop-shadow-lg border border-lightGray ">
               <div className="py-5 pt-7 px-7 relative">
                 <p className="font-bold uppercase text-lg">
@@ -54,12 +342,116 @@ export default function Home() {
             </div>
 
             <div className="grid grid-rows-2 gap-4">
-              <div className="w-full h-full bg-white rounded-2xl shadow-md"></div>
 
-              <div className="w-full h-full bg-gray"></div>
+              <div className="w-full h-full rounded-2xl shadow-md relative overflow-hidden ">
+
+                <div className="absolute w-28 h-16 top-0 right-0 z-20">
+
+                  <div className="w-ful h-full relative">
+                    <Image
+                      src={"/assets/logo1.svg"}
+                      fill
+                      alt="logo"
+                      style={{ objectFit: "contain", objectPosition: "left" }}
+                      className="-mt-2"
+                    />
+                  </div>
+
+                </div>
+
+                <div className="absolute w-full h-full bg-gradient-to-t from-black/50 z-10 p-5 flex flex-col justify-end">
+                  <button
+                    type="button"
+                    title="promotion"
+                    className="px-4 py-1 bg-green text-sm text-white rounded-full w-fit"
+                  >
+                    NEWS
+                  </button>
+
+                  <p className="font-bold uppercase text-lg text-white">OCTOBER’s NEW DOG & EXOTIC PET PRODUCTS</p>
+                  <p className=" text-white">19 SEP. 2022</p>
+
+
+                </div>
+                <Image
+                  src="/assets/Rectangle17.png"
+                  fill
+                  alt="new1"
+                  style={{ objectFit: "cover", objectPosition: "center" }}
+                  className="scale-110"
+                />
+              </div>
+
+              <div className="w-full h-full rounded-2xl shadow-md relative overflow-hidden ">
+
+                <div className="absolute w-28 h-16 top-0 right-0 z-20">
+
+                  <div className="w-ful h-full relative">
+                    <Image
+                      src={"/assets/logo1.svg"}
+                      fill
+                      alt="logo"
+                      style={{ objectFit: "contain", objectPosition: "left" }}
+                      className="-mt-2"
+                    />
+                  </div>
+
+                </div>
+
+                <div className="absolute w-full h-full bg-gradient-to-t from-black/50 z-10 p-5 flex flex-col justify-end">
+                  <button
+                    type="button"
+                    title="promotion"
+                    className="px-4 py-1 bg-green text-sm text-white rounded-full w-fit"
+                  >
+                    NEWS
+                  </button>
+
+                  <p className="font-bold uppercase text-lg text-white">SEPTEMBER’s NEW CAT & EXOTIC PET PRODUCTS</p>
+                  <p className=" text-white">21 AUG. 2022</p>
+
+
+                </div>
+                <Image
+                  src="/assets/Rectangle21.png"
+                  fill
+                  alt="new1"
+                  style={{ objectFit: "cover", objectPosition: "center" }}
+                  className="scale-110"
+                />
+              </div>
+
             </div>
 
-            <div className="w-full bg-red"></div>
+            <div className="max-h-[500px]  h-[500px] relative overflow-hidden w-full bg-white rounded-2xl drop-shadow-lg border border-lightGray flex flex-col ">
+              <div className="flex-1 relative overflow-hidden ">
+                <Image
+                  src="/assets/Rectangle222.png"
+                  fill
+                  alt="new1"
+                  style={{ objectFit: "cover", objectPosition: "center" }}
+                  className="hover:scale-105 cursor-pointer duration-300"
+                />
+              </div>
+
+              <div className="py-5  px-7 relative shrink-0 ">
+
+                <p className="font-bold uppercase text-lg">
+                  ROYAL CANIN NEW FLAVOUR TESTER for clinic
+                </p>
+                <p className=" text-gray">10 OCT. 2022</p>
+
+                <button
+                  type="button"
+                  title="promotion"
+                  className="px-4 py-1 bg-orange text-sm text-white rounded-full absolute -top-5 z-10"
+                >
+                  PROMOTION
+                </button>
+              </div>
+
+
+            </div>
           </div>
         </div>
       </div>
@@ -77,14 +469,14 @@ export default function Home() {
           <button
             type="button"
             title="applyjobs"
-            className="mt-4 px-7 py-2 border-2 tracking-wider border-blue font-bold text-blue bg-white rounded-full min-w-[150px] "
+            className="mt-4 px-7 py-2 border-2 tracking-wider border-blue font-bold text-blue bg-white rounded-full min-w-[150px] hover:bg-blue hover:text-white duration-300 "
           >
             APPLY JOBS
           </button>
 
           <div className="w-full bg-[url('/assets/Maskgroup.png')] bg-left bg-no-repeat bg-contain min-h-[350px] flex justify-end items-center gap-7 pr-48">
             <div className="w-44 flex flex-col items-center justify-center gap-1 text-center text-black ">
-              <div className="w-32 h-32 relative">
+              <div className="w-40 h-40 relative">
                 <Image
                   src="/assets/Group455.svg"
                   fill
@@ -93,8 +485,8 @@ export default function Home() {
                   className="hover:scale-110 duration-300 cursor-pointer"
                 />
               </div>
-              <p className="font-bold">TEAMWORK</p>
-              <p className="text-sm">IS THE BEST</p>
+              <p className="font-bold -translate-y-4">TEAMWORK</p>
+              <p className="text-sm -translate-y-4">IS THE BEST</p>
             </div>
 
             <div className="w-44 flex flex-col items-center justify-center gap-1 text-center text-black ">
@@ -102,7 +494,7 @@ export default function Home() {
                 <Image
                   src="/assets/Group324.svg"
                   fill
-                  alt="teamwork"
+                  alt="EMPLOYEE"
                   style={{ objectFit: "contain", objectPosition: "center" }}
                   className="hover:scale-110 duration-300 cursor-pointer"
                 />
@@ -116,7 +508,7 @@ export default function Home() {
                 <Image
                   src="/assets/Group460.svg"
                   fill
-                  alt="teamwork"
+                  alt="VALUE"
                   style={{ objectFit: "contain", objectPosition: "center" }}
                   className="hover:scale-110 duration-300 cursor-pointer"
                 />
@@ -130,7 +522,7 @@ export default function Home() {
                 <Image
                   src="/assets/Group653.svg"
                   fill
-                  alt="teamwork"
+                  alt="LEARNING"
                   style={{ objectFit: "contain", objectPosition: "center" }}
                   className="hover:scale-110 duration-300 cursor-pointer"
                 />
